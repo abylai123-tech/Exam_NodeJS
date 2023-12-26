@@ -1,0 +1,21 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/films.css" />
+</head>
+<body>
+  {{> menu}}
+  <h1>Films</h1>
+  <ul>
+    {{#each films}}
+      <li>
+        {{#with this}}
+          <p>{{title}}</p>
+          <p>{{year}}</p>
+          <p>{{director.name}}</p>
+        {{/with}}
+      </li>
+    {{/each}}
+  </ul>
+  {{> footer}}
+</body>
+</html>

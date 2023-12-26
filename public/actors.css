@@ -1,0 +1,23 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background: linear-gradient(90deg,#0060fe,#7325c5);
+}
+h1 {
+    color: #eeff00;
+}
+
+ol {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    background-color: #1a1a1a;
+    margin: 5px 0; 
+    padding: 10px; 
+    border-radius: 5px;
+}
+
+p {
+    color: #ffff51;
+}

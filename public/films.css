@@ -1,0 +1,37 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(90deg, #0060fe, #7325c5);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #ff0000;
+}
+
+p {
+  color: #ffff00;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  color: #fff;
+  background-color: #1a1a1a;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer {
+  color: white;
+}

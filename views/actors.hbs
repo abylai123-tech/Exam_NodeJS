@@ -1,0 +1,19 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/actors.css">
+</head>
+<body>
+    {{> menu}}
+    <h1>Actors</h1>
+    <ol>
+        {{#each actors}}
+            <li>
+                {{#with this}}
+                    <p>{{name}}</p>
+                {{/with}}
+            </li>
+        {{/each}}
+    </ol>
+    {{> footer}}
+</body>
+</html>
