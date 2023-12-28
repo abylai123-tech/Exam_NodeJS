@@ -88,7 +88,7 @@ app.post('/films', async (req, res) => {
     } catch (e) {
       return res.status(500).json({ error: e.message });
     }
-  });
+});
 
 app.get('/films', async (req, res) => {
 	const films = await Film.findAll({
@@ -178,8 +178,8 @@ const middleware = async (req, res, next) => {
 };
 
 const middleware_2 = (req, res, next) => {
-	console.log(`Received ${req.method} request at ${req.url}`);
-	next();
+    console.log(`Получен запрос ${req.method} по адресу ${req.url}`);
+    next();
 };
 
 app.use(middleware_2);
